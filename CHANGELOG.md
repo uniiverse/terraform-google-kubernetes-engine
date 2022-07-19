@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [22.1.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v22.0.0...v22.1.0) (2022-07-19)
+
+
+### Features
+
+* add `gke_backup_agent_config` arg ([#1316](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1316)) ([cff4428](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/cff44285b5b5f085ff22cfe64fe87e438ac9a90a))
+* add module_depends_on for asm sub module ([#1323](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1323)) ([4d526f9](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/4d526f930958027d546ef9109eba095553fe7409))
+* add var and output for ACM version ([#1322](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1322)) ([35b2bf5](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/35b2bf510232c72ccabfebcc07a3d65885e11786))
+* promote `max_pods_per_node`, `max_surge`, and `max_unavailable` fields to ga ([#1318](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1318)) ([ed64058](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/ed64058fa57bf9a9ff6f271f6eb010e5a7e68704))
+
 ## [22.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v21.2.0...v22.0.0) (2022-07-11)
 
 
