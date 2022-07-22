@@ -239,7 +239,16 @@ variable "node_pools_oauth_scopes" {
     default-node-pool = []
   }
 }
+variable "node_pools_linux_node_configs_sysctls" {
+  type        = map(map(string))
+  description = "Map of maps containing linux node config sysctls by node-pool name"
 
+  # Default is being set in variables_defaults.tf
+  default = {
+    all               = {}
+    default-node-pool = {}
+  }
+}
 variable "stub_domains" {
   type        = map(list(string))
   description = "Map of stub domains and their resolvers to forward DNS queries for a certain domain to an external DNS server"
